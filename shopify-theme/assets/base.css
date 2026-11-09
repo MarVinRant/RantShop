@@ -8,6 +8,10 @@ a { color: var(--brand-green); }
 .site-footer { border-top: 1px solid #dfe7df; border-bottom: 0; background: var(--brand-beige); }
 .brand { color: var(--brand-green); font-size: 1.35rem; font-weight: 700; text-decoration: none; }
 nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .75rem; }
+.site-search { display: flex; flex-wrap: wrap; gap: .5rem; align-items: end; margin-top: 1rem; }
+.site-search label { flex-basis: 100%; font-size: .875rem; font-weight: 700; }
+.site-search input { min-width: 14rem; padding: .6rem .7rem; border: 1px solid #b9c8bd; border-radius: .4rem; font: inherit; }
+.site-search button { padding: .6rem .8rem; color: var(--surface); background: var(--brand-green); border: 1px solid var(--brand-green); border-radius: .4rem; font: inherit; cursor: pointer; }
 .scaffold-note { color: #5f6c64; font-size: .875rem; }
 .placeholder-panel { max-width: 72rem; margin: 2rem auto; padding: clamp(2rem, 7vw, 6rem) 5vw; background: var(--brand-beige); border-radius: 1rem; }
 .collection-tiles { max-width: 72rem; margin: 2rem auto; padding: 1rem 5vw 3rem; }

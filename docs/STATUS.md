@@ -36,6 +36,7 @@
 - Homepage demonstrativa recebeu tiles de quatro coleções, sem produtos ou preços fictícios.
 - RantiShop Combina recebeu questionário interativo de três passos, ainda sem recomendações comerciais.
 - Templates demonstrativos de coleção e produto agora usam estados vazios seguros, sem dados comerciais fictícios.
+- Cabeçalho e rodapé demonstrativos agora usam rotas Shopify semânticas, busca acessível e links de navegação não comerciais.
 - Rascunho de políticas operacionais criado em `docs/POLICY_DRAFTS.md`, ainda não publicável.
 - Checklist de prontidão consolidado em `docs/RELEASE_READINESS.md`; Gate 1 permanece bloqueado por ausência de homologação comercial.
 - M6-QA-REVIEW criou relatório independente em `tests/`.

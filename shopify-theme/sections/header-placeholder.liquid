@@ -1,10 +1,16 @@
-<header class="site-header" data-scaffold="placeholder">
+<header class="site-header" data-scaffold="header">
   <a class="brand" href="{{ routes.root_url }}" aria-label="RantiShop — início">RantiShop</a>
   <nav aria-label="Navegação principal">
-    <a href="#" aria-disabled="true">Categorias — TODO</a>
-    <a href="#" aria-disabled="true">Ambientes — TODO</a>
-    <a href="#" aria-disabled="true">Busca — TODO</a>
+    <a href="{{ routes.collections_url }}">Categorias</a>
+    <a href="{{ routes.root_url }}#collections-heading">Ambientes</a>
+    <a href="{{ routes.search_url }}">Buscar</a>
+    <a href="{{ routes.cart_url }}">Carrinho</a>
   </nav>
+  <form class="site-search" action="{{ routes.search_url }}" method="get" role="search">
+    <label for="HeaderSearch">Pesquisar na prévia</label>
+    <input id="HeaderSearch" type="search" name="q" placeholder="Buscar" />
+    <button type="submit">Buscar</button>
+  </form>
   <p class="scaffold-note">Prévia técnica — catálogo pendente de homologação</p>
 </header>
 {% schema %}
