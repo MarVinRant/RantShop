@@ -15,6 +15,8 @@ Fonte: https://pluglardrop.com.br/
 
 Estado para RantiShop: **candidato prioritário para validação sem compra**. Preços, SKU, estoque, frete por CEP, plano, emissão fiscal, devoluções e compatibilidade com Shopify ainda precisam de evidência própria e datada.
 
+Observação pública datada da busca: a página inicial exibiu um escorredor dobrável, cestos aramados e uma bandeja de madeira com valores de custo e preço sugerido. Esses valores são observações promocionais da página, não cotações da RantiShop; não foram copiados para `candidates.json` e não devem ser usados para calcular margem sem frete, tarifas, tributos, SKU e confirmação de disponibilidade.
+
 ### DropDrop
 
 Fontes:
@@ -26,6 +28,8 @@ Fontes:
 - Os termos públicos informam planos com assinatura mensal e recargas, que devem ser avaliados contra o teto de R$ 200.
 
 Estado para RantiShop: **candidato para validação comercial**, sem contratação. É necessário confirmar custo total, condições para loja própria, estoque, frete, devoluções e capital de giro.
+
+Observação pública datada da busca: a página inicial exibiu plano a partir de R$ 180,00. Esse custo potencial consome quase toda a reserva de R$ 200 e exige aprovação humana; não foi contratado nem lançado no orçamento como despesa.
 
 ### Fortal Import
 
