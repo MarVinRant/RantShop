@@ -21,6 +21,7 @@
 
 - [x] Matriz de homologação e contrato mínimo do catálogo criados.
 - [x] Dez candidatos registrados como `candidate`/pendentes, sem dados comerciais inventados.
+- [x] Fonte JSON estruturada validada com exatamente dez registros `candidate` e valores comerciais nulos.
 - [x] Direção visual desktop/mobile e regra de prévia fotográfica documentadas.
 - [x] Posicionamento, calendário de 14 dias, seis roteiros e rastreamento orgânico preparados.
 - [ ] Homologar fornecedor e SKU com evidências datadas.
