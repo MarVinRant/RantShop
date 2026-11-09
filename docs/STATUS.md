@@ -23,6 +23,7 @@
 - M1-A criou matriz, esquema e dez candidatos não homologados em `catalog/`.
 - `catalog/candidates.json` agora fornece os dez candidatos em formato estruturado; todos permanecem `candidate` com campos comerciais nulos.
 - `tests/validate-repository.ps1` foi criado e executado com sucesso, validando catálogo, complementares, JSON do tema e ausência de padrões de credenciais.
+- O verificador também valida os blocos JSON `{% schema %}` dos arquivos Liquid do tema.
 - Modelo de solicitação de cotação sem compra criado em `catalog/supplier-inquiry-template.md`; nenhum contato foi enviado.
 - Registro estruturado com dez fichas de cotação criado em `catalog/quote-register.json`, ainda não enviado e sem valores preenchidos.
 - Pesquisa pública adicional confirmou observações de catálogo e plano, mas nenhuma foi promovida a cotação ou despesa.

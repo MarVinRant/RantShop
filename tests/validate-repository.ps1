@@ -32,6 +32,15 @@ Get-ChildItem (Join-Path $PSScriptRoot '..\shopify-theme') -Recurse -File -Filte
   Write-Output "PASS: valid JSON $($_.FullName)"
 }
 
+Get-ChildItem (Join-Path $PSScriptRoot '..\shopify-theme') -Recurse -File -Filter '*.liquid' | ForEach-Object {
+  $liquid = Get-Content $_.FullName -Raw
+  $schemaBlocks = [regex]::Matches($liquid, '(?s){% schema %}\s*(.*?)\s*{% endschema %}')
+  foreach ($schemaBlock in $schemaBlocks) {
+    $schemaBlock.Groups[1].Value | ConvertFrom-Json | Out-Null
+    Write-Output "PASS: valid Liquid schema $($_.FullName)"
+  }
+}
+
 $secretPattern = '(?i)(api[_-]?key|password|secret|private[_-]?key|BEGIN .*PRIVATE KEY|ghp_|sk-)'
 $matches = rg -n $secretPattern (Join-Path $PSScriptRoot '..\catalog') (Join-Path $PSScriptRoot '..\automation') (Join-Path $PSScriptRoot '..\shopify-theme') 2>$null
 Assert-Condition ([string]::IsNullOrWhiteSpace(($matches -join "`n"))) 'no credential-like patterns in project artifacts'

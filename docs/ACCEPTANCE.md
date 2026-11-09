@@ -23,6 +23,7 @@
 - [x] Dez candidatos registrados como `candidate`/pendentes, sem dados comerciais inventados.
 - [x] Fonte JSON estruturada validada com exatamente dez registros `candidate` e valores comerciais nulos.
 - [x] Verificador local executado com sucesso para catálogo, tema JSON e padrões de credenciais.
+- [x] Verificação local ampliada para os blocos `{% schema %}` do Liquid.
 - [x] Registro de cotação contém uma ficha `pending_validation` para cada candidato e estado global `not_sent`.
 - [x] Direção visual desktop/mobile e regra de prévia fotográfica documentadas.
 - [x] Posicionamento, calendário de 14 dias, seis roteiros e rastreamento orgânico preparados.
