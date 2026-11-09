@@ -39,6 +39,7 @@
 - [x] Esqueleto Shopify reversível criado sem checkout, credenciais ou dados comerciais fictícios.
 - [x] Homepage demonstrativa contém navegação visual por quatro coleções, identificadas como referência.
 - [x] RantiShop Combina possui questionário interativo de ambiente, paleta e estilo com fallback sem catálogo.
+- [x] Páginas demonstrativas de coleção e produto exibem estado pendente sem preço, estoque ou compra.
 - [x] Arquivos JSON do tema validados por parsing local.
 - [x] Relatório QA independente criado com achados e bloqueios.
 - [x] FAQ inicial do Ranti Assistente criada sem respostas comerciais inventadas.

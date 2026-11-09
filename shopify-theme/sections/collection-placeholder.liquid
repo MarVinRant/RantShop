@@ -1,0 +1,14 @@
+<section class="placeholder-panel" data-scaffold="collection-placeholder">
+  <p class="eyebrow">RantiShop · coleção</p>
+  <h1>{{ collection.title | default: section.settings.heading }}</h1>
+  <p>{{ section.settings.description }}</p>
+  <div class="empty-state" role="status">Produtos e filtros serão exibidos somente após a homologação do catálogo.</div>
+</section>
+{% schema %}
+{
+  "name": "Coleção placeholder",
+  "settings": [
+    {"type":"textarea","id":"description","label":"Descrição","default":"Prévia de coleção sem produtos comerciais conectados."}
+  ]
+}
+{% endschema %}

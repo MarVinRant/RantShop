@@ -1,0 +1,15 @@
+<section class="placeholder-panel" data-scaffold="product-placeholder">
+  <p class="eyebrow">RantiShop · produto</p>
+  <h1>{{ product.title | default: section.settings.heading }}</h1>
+  <p>{{ section.settings.description }}</p>
+  <div class="empty-state" role="status">Ficha técnica, preço, estoque e compra serão exibidos somente após validação comercial.</div>
+</section>
+{% schema %}
+{
+  "name": "Produto placeholder",
+  "settings": [
+    {"type":"text","id":"heading","label":"Título","default":"Página de produto"},
+    {"type":"textarea","id":"description","label":"Descrição","default":"Prévia de produto sem dados comerciais conectados."}
+  ]
+}
+{% endschema %}
