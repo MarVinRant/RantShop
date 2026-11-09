@@ -35,6 +35,7 @@
 - [x] Esqueleto Shopify reversível criado sem checkout, credenciais ou dados comerciais fictícios.
 - [x] Arquivos JSON do tema validados por parsing local.
 - [x] Relatório QA independente criado com achados e bloqueios.
+- [x] FAQ inicial do Ranti Assistente criada sem respostas comerciais inventadas.
 - [ ] Executar Shopify Theme Check em ambiente disponível.
 - [ ] Gerar capturas desktop/mobile de uma superfície visual real.
 - [ ] Homologar fornecedor e dados de SKU antes de ativar recomendações.

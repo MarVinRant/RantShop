@@ -25,6 +25,7 @@
 - M1-B criou direção visual e plano fotográfico em `design/`.
 - M1-C criou posicionamento, calendário de 14 dias, roteiros e rastreamento em `marketing/`.
 - M4-01-DRAFT criou regras e seis testes manuais do RantiShop Combina em `automation/`.
+- Ranti Assistente recebeu FAQ segura e respostas de encaminhamento em `automation/assistant-faq.md`.
 - M3-01-SCAFFOLD criou estrutura reversível de tema em `shopify-theme/`; JSONs passaram por parsing local.
 - M6-QA-REVIEW criou relatório independente em `tests/`.
 
@@ -35,6 +36,7 @@
 - Cotações por SKU, estoque, frete, prazos e margens ainda pendentes.
 - Não existe superfície visual para gerar capturas reais desktop/mobile.
 - O scaffold Shopify ainda não foi validado pelo Shopify Theme Check nem executado em loja de desenvolvimento.
+- Shopify CLI/Theme Check não estão instalados no ambiente atual.
 - Nenhuma autorização para gasto, publicação ou pedido real.
 
 ## Próximo marco
