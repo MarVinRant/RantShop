@@ -10,5 +10,8 @@
 | D-006 | Questionário no RantiShop Combina; foto somente depois | Reduz risco de privacidade e escopo | Aprovada |
 | D-007 | Telegram supervisionado antes de automações comerciais | Exige validação de preço, estoque e link | Aprovada |
 | D-008 | Prévia fotográfica única para aprovação visual | Evita retrabalho e orienta o layout | Aprovada |
+| D-009 | Orquestrador como sessão principal; seis frentes especializadas | Mantém coordenação e reduz configuração incompatível | Aprovada |
+| D-010 | Limite inicial de três subagentes simultâneos | Controla concorrência e consumo | Aprovada |
+| D-011 | Usar delegação oficial disponível quando o CLI/TOML não estiver exposto | Evita inventar configuração não suportada | Aplicada em M0.5 |
 
 Alterações de escopo, orçamento, plataforma ou publicação exigem registro nesta página e aprovação humana quando aplicável.

@@ -7,6 +7,16 @@
 - [x] Git, `main`, `origin` e arquivos existentes preservados.
 - [x] Nenhuma aplicação fictícia ou serviço comercial ativado.
 
+## M0.5 — Equipe
+
+- [x] Seis responsabilidades especializadas documentadas.
+- [x] Orquestrador definido como sessão principal.
+- [x] Limite de três subagentes simultâneos respeitado.
+- [x] Delegação testada em Produtos, Design/UX e Marketing.
+- [x] Instruções de escopo, caminhos, critérios e bloqueios reconhecidas pelos testes.
+- [x] Ausência do CLI `codex` registrada; nenhum TOML incompatível criado.
+- [x] Commits M0 sincronizados com `origin/main`.
+
 ## MVP — Critérios futuros
 
 - [ ] Fornecedor nacional evidenciado e operacional.

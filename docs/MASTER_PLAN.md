@@ -30,3 +30,9 @@ Preparar e homologar um MVP comercial de e-commerce Shopify para casa, cozinha, 
 ## Gates
 
 Nenhuma contratação, publicação, ativação de pagamento ou venda real ocorre sem aprovação humana. M1 exige evidências de fornecedor, custos, prazos, estoque e margem. M2 exige prévias fotográficas consolidadas. M6 exige zero falhas críticas, políticas revisadas, fluxo de pedido testado e capital de giro compatível.
+
+## Equipe e colaboração
+
+O Orquestrador é a sessão principal, guiada por `AGENTS.md` e este plano. As seis frentes especializadas são: Produtos e Fornecedores (`catalog/`), Shopify (`shopify-theme/`), Design e UX (`design/`), IA e Automações (`automation/`), Marketing Orgânico (`marketing/`) e QA e Operações (`tests/`). Cada frente registra arquivos, testes, evidências e bloqueios; mudanças compartilhadas passam por revisão antes da integração. O limite inicial é de três subagentes simultâneos.
+
+O ambiente atual não expõe um CLI `codex` nem uma estrutura TOML de agentes de projeto verificável. A delegação oficial disponível foi validada com subagentes temporários, sem criar configurações incompatíveis ou serviços externos.

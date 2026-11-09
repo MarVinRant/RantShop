@@ -1,5 +1,15 @@
 # Backlog M0–M7
 
+## Primeira rodada M1 — tarefas independentes
+
+| ID | Frente | Responsável | Entrega | Critérios de aceite |
+|---|---|---|---|---|
+| M1-A | Produtos e Fornecedores | Agente 01 | Matriz de homologação para fornecedores e 10 produtos | Evidências verificáveis de fornecedor, custo, frete, estoque, prazo, margem e complementares; dados ausentes ficam pendentes |
+| M1-B | Design e UX | Agente 03 | Referências e plano da primeira prévia fotográfica | Identidade verde/branco/bege, direitos das imagens registrados e plano desktop/mobile antes da aprovação visual |
+| M1-C | Marketing Orgânico | Agente 05 | Posicionamento, calendário inicial e formatos de conteúdo | Conteúdo orgânico sem anúncios pagos, links rastreáveis planejados e nenhuma oferta definitiva sem catálogo homologado |
+
+Essas frentes não iniciam a construção integral da Shopify antes do contrato de dados do catálogo e das dependências M1.
+
 | ID | Prioridade | Tarefa | Responsável | Dependência | Aceite |
 |---|---|---|---|---|---|
 | M0-01 | P0 | Manter registros e estrutura central | Orquestrador | — | Documentos e pastas presentes |
