@@ -32,6 +32,7 @@
 - M4-01-DRAFT criou regras e seis testes manuais do RantiShop Combina em `automation/`.
 - Ranti Assistente recebeu FAQ segura e respostas de encaminhamento em `automation/assistant-faq.md`.
 - M3-01-SCAFFOLD criou estrutura reversível de tema em `shopify-theme/`; JSONs passaram por parsing local.
+- Homepage demonstrativa recebeu tiles de quatro coleções, sem produtos ou preços fictícios.
 - M6-QA-REVIEW criou relatório independente em `tests/`.
 
 ## Bloqueios

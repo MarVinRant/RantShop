@@ -1,1 +1,1 @@
-{"sections":{"main":{"type":"main-placeholder","settings":{}},"combina":{"type":"combina-placeholder","settings":{}}},"order":["main","combina"]}
+{"sections":{"main":{"type":"main-placeholder","settings":{}},"collections":{"type":"collection-tiles","settings":{}},"combina":{"type":"combina-placeholder","settings":{}}},"order":["main","collections","combina"]}

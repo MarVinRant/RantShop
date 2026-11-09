@@ -10,7 +10,15 @@ a { color: var(--brand-green); }
 nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .75rem; }
 .scaffold-note { color: #5f6c64; font-size: .875rem; }
 .placeholder-panel { max-width: 72rem; margin: 2rem auto; padding: clamp(2rem, 7vw, 6rem) 5vw; background: var(--brand-beige); border-radius: 1rem; }
+.collection-tiles { max-width: 72rem; margin: 2rem auto; padding: 1rem 5vw 3rem; }
+.section-heading { max-width: 42rem; }
+.section-heading h2 { margin: .25rem 0 1.25rem; font-size: clamp(1.6rem, 3vw, 2.4rem); line-height: 1.15; }
+.tile-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.collection-tile { min-height: 10rem; display: flex; flex-direction: column; justify-content: end; gap: .2rem; padding: 1rem; color: var(--ink); text-decoration: none; background: linear-gradient(145deg, #f3ebdd, #dfe7df); border: 1px solid #dfe7df; border-radius: 1rem; }
+.collection-tile span { font-size: 1.2rem; font-weight: 700; }
+.collection-tile small { color: #5f6c64; }
 .eyebrow { color: var(--brand-green); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
 .choice-row { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
 .choice-row span { padding: .65rem .8rem; background: var(--surface); border: 1px dashed var(--brand-green); border-radius: .5rem; }
-@media (max-width: 640px) { .site-header, .site-footer { padding-inline: 1rem; } nav { gap: .6rem; } }
+@media (max-width: 760px) { .tile-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .site-header, .site-footer { padding-inline: 1rem; } nav { gap: .6rem; } .collection-tiles { padding-inline: 1rem; } }
