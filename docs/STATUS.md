@@ -21,6 +21,7 @@
 - Não foram criados TOML incompatíveis: o CLI `codex` não está disponível localmente.
 - Commit M0.5 sincronizado com `origin/main`.
 - M1-A criou matriz, esquema e dez candidatos não homologados em `catalog/`.
+- Pesquisa pública datada adicionada em `catalog/public-research-2026-11-09.md`; nenhuma fonte foi tratada como homologação.
 - M1-B criou direção visual e plano fotográfico em `design/`.
 - M1-C criou posicionamento, calendário de 14 dias, roteiros e rastreamento em `marketing/`.
 
@@ -34,7 +35,7 @@
 
 ## Próximo marco
 
-Próximos passos: revisar e integrar as três entregas; depois executar M1-03 com cotações sem compra e preparar a superfície visual mínima para M2-02.
+Próximos passos: executar M1-03 com solicitações de cotação sem compra e preparar a superfície visual mínima para M2-02.
 
 ## Resultado da validação de delegação
 
