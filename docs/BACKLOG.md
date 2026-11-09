@@ -24,6 +24,7 @@ Rodada seguinte: M4-01-DRAFT, M3-01-SCAFFOLD e M6-QA-REVIEW foram executadas em 
 | M1-04 | P0 | Preparar fichas de cotação e roteiro de contato | Orquestrador + Produtos | M1-03 | Modelo sem compromisso criado; envio depende de canal e autorização operacional |
 | M2-02 | P1 | Produzir prévia fotográfica demonstrável | Design e UX + Shopify | M2-01, superfície visual | Capturas reais desktop/mobile sem produto fictício |
 | M5-02 | P1 | Revisar calendário e links rastreáveis | Marketing + Orquestrador | M1, M1-C | Rascunhos prontos, sem publicação real |
+| M3-02 | P0 | Preencher e revisar políticas institucionais | Orquestrador + QA | Dados empresariais, frete e atendimento | Políticas reais revisadas antes do Gate 3 |
 | M2-01 | P1 | Montar prévia fotográfica consolidada | Design e UX + Shopify | M0 | Capturas desktop/mobile |
 | M3-01 | P0 | Construir tema e navegação | Shopify | M1, M2 | Loja demonstrável e responsiva |
 | M4-01 | P1 | Implementar Combina e recomendações | IA e Automações | M1, M3 | Regras usam catálogo único |

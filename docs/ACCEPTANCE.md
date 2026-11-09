@@ -44,6 +44,8 @@
 - [ ] Executar Shopify Theme Check em ambiente disponível.
 - [ ] Gerar capturas desktop/mobile de uma superfície visual real.
 - [ ] Homologar fornecedor e dados de SKU antes de ativar recomendações.
+- [x] Estrutura de políticas institucionais criada como rascunho não publicável.
+- [ ] Revisar políticas com dados reais da operação antes do Gate 3.
 
 ## MVP — Critérios futuros
 
