@@ -20,5 +20,11 @@ nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .75rem; }
 .eyebrow { color: var(--brand-green); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
 .choice-row { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
 .choice-row span { padding: .65rem .8rem; background: var(--surface); border: 1px dashed var(--brand-green); border-radius: .5rem; }
+.choice-row button { padding: .65rem .8rem; color: var(--ink); background: var(--surface); border: 1px solid var(--brand-green); border-radius: .5rem; cursor: pointer; font: inherit; }
+.choice-row button:hover, .choice-row button:focus-visible { color: var(--surface); background: var(--brand-green); }
+.combina-progress { margin: 1rem 0 .5rem; color: var(--brand-green); font-weight: 700; }
+.combina fieldset { border: 0; padding: 0; margin: 1rem 0; }
+.combina legend { font-size: 1.1rem; font-weight: 700; }
+.combina-result { padding: 1rem; background: var(--surface); border-left: .25rem solid var(--brand-green); }
 @media (max-width: 760px) { .tile-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .site-header, .site-footer { padding-inline: 1rem; } nav { gap: .6rem; } .collection-tiles { padding-inline: 1rem; } }

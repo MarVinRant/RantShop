@@ -1,10 +1,36 @@
-<section class="placeholder-panel" data-scaffold="placeholder">
+<section class="placeholder-panel combina" data-combina>
   <p class="eyebrow">RantiShop Combina</p>
-  <h2>Ambiente → paleta → estilo</h2>
-  <p>Fluxo demonstrativo. As recomendações reais dependem do catálogo homologado.</p>
-  <div class="choice-row" aria-label="Opções demonstrativas">
-    <span>Ambiente — TODO</span><span>Paleta — TODO</span><span>Estilo — TODO</span>
-  </div>
+  <h2>Encontre uma direção para o seu ambiente</h2>
+  <p>Responda a três perguntas. Nesta prévia, o resultado é apenas demonstrativo até o catálogo ser homologado.</p>
+  <div class="combina-progress" aria-live="polite">Passo 1 de 3</div>
+  <form data-combina-form>
+    <fieldset data-step="0">
+      <legend>Qual ambiente você quer transformar?</legend>
+      <div class="choice-row">
+        <button type="button" data-value="cozinha">Cozinha</button>
+        <button type="button" data-value="sala">Sala</button>
+        <button type="button" data-value="organizacao">Organização</button>
+      </div>
+    </fieldset>
+    <fieldset data-step="1" hidden>
+      <legend>Qual paleta combina com você?</legend>
+      <div class="choice-row">
+        <button type="button" data-value="verde">Verde</button>
+        <button type="button" data-value="branco">Branco</button>
+        <button type="button" data-value="bege">Bege</button>
+      </div>
+    </fieldset>
+    <fieldset data-step="2" hidden>
+      <legend>Qual estilo você prefere?</legend>
+      <div class="choice-row">
+        <button type="button" data-value="natural">Natural</button>
+        <button type="button" data-value="minimalista">Minimalista</button>
+        <button type="button" data-value="contemporaneo">Contemporâneo</button>
+      </div>
+    </fieldset>
+  </form>
+  <p class="combina-result" data-combina-result role="status" hidden></p>
+  <p class="scaffold-note">Nenhum produto, preço, estoque ou link de compra é exibido nesta prévia.</p>
 </section>
 {% schema %}
 {"name":"RantiShop Combina placeholder","settings":[],"presets":[{"name":"Combina placeholder"}]}

@@ -34,6 +34,7 @@
 - Ranti Assistente recebeu FAQ segura e respostas de encaminhamento em `automation/assistant-faq.md`.
 - M3-01-SCAFFOLD criou estrutura reversível de tema em `shopify-theme/`; JSONs passaram por parsing local.
 - Homepage demonstrativa recebeu tiles de quatro coleções, sem produtos ou preços fictícios.
+- RantiShop Combina recebeu questionário interativo de três passos, ainda sem recomendações comerciais.
 - Rascunho de políticas operacionais criado em `docs/POLICY_DRAFTS.md`, ainda não publicável.
 - Checklist de prontidão consolidado em `docs/RELEASE_READINESS.md`; Gate 1 permanece bloqueado por ausência de homologação comercial.
 - M6-QA-REVIEW criou relatório independente em `tests/`.
