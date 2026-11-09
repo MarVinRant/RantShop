@@ -27,6 +27,7 @@
 - Modelo de solicitação de cotação sem compra criado em `catalog/supplier-inquiry-template.md`; nenhum contato foi enviado.
 - Registro estruturado com dez fichas de cotação criado em `catalog/quote-register.json`, ainda não enviado e sem valores preenchidos.
 - Pesquisa pública adicional confirmou observações de catálogo e plano, mas nenhuma foi promovida a cotação ou despesa.
+- Diretório de canais oficiais dos fornecedores criado em `catalog/supplier-contact-directory.md`; nenhum contato foi enviado.
 - Pesquisa pública datada adicionada em `catalog/public-research-2026-11-09.md`; nenhuma fonte foi tratada como homologação.
 - M1-B criou direção visual e plano fotográfico em `design/`.
 - M1-C criou posicionamento, calendário de 14 dias, roteiros e rastreamento em `marketing/`.

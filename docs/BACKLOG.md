@@ -22,6 +22,7 @@ Rodada seguinte: M4-01-DRAFT, M3-01-SCAFFOLD e M6-QA-REVIEW foram executadas em 
 | M1-02 | P0 | Selecionar e precificar 10 produtos | Produtos + QA | M1-01 | Margem, estoque e prazo validados |
 | M1-03 | P0 | Revisar candidatos e solicitar cotações sem compra | Produtos + QA | M1-01 | Dez fichas com evidência datada ou pendência explícita |
 | M1-04 | P0 | Preparar fichas de cotação e roteiro de contato | Orquestrador + Produtos | M1-03 | Modelo sem compromisso criado; envio depende de canal e autorização operacional |
+| M1-05 | P0 | Confirmar dados comerciais com fornecedores | Produtos + responsável operacional | M1-04 | Respostas arquivadas por SKU; depende de autorização para contato |
 | M2-02 | P1 | Produzir prévia fotográfica demonstrável | Design e UX + Shopify | M2-01, superfície visual | Capturas reais desktop/mobile sem produto fictício |
 | M5-02 | P1 | Revisar calendário e links rastreáveis | Marketing + Orquestrador | M1, M1-C | Rascunhos prontos, sem publicação real |
 | M3-02 | P0 | Preencher e revisar políticas institucionais | Orquestrador + QA | Dados empresariais, frete e atendimento | Políticas reais revisadas antes do Gate 3 |
