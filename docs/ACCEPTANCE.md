@@ -28,6 +28,17 @@
 - [ ] Produzir capturas reais da prévia visual.
 - [ ] Revisar e aprovar materiais antes de qualquer publicação.
 
+## M3/M4/M6 — Preparação técnica
+
+- [x] Regras determinísticas do Combina documentadas com fallback `fallback_pending_validation`.
+- [x] Seis testes manuais de recomendação documentados.
+- [x] Esqueleto Shopify reversível criado sem checkout, credenciais ou dados comerciais fictícios.
+- [x] Arquivos JSON do tema validados por parsing local.
+- [x] Relatório QA independente criado com achados e bloqueios.
+- [ ] Executar Shopify Theme Check em ambiente disponível.
+- [ ] Gerar capturas desktop/mobile de uma superfície visual real.
+- [ ] Homologar fornecedor e dados de SKU antes de ativar recomendações.
+
 ## MVP — Critérios futuros
 
 - [ ] Fornecedor nacional evidenciado e operacional.

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "RantiShop — scaffold",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Esqueleto demonstrativo. Não representa catálogo comercial homologado."
+      },
+      {
+        "type": "color",
+        "id": "brand_green",
+        "label": "Verde da marca",
+        "default": "#2F6B4F"
+      },
+      {
+        "type": "color",
+        "id": "brand_beige",
+        "label": "Bege de apoio",
+        "default": "#F3EBDD"
+      }
+    ]
+  }
+]

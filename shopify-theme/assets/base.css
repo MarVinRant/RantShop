@@ -1,0 +1,16 @@
+:root { --brand-green: #2f6b4f; --brand-beige: #f3ebdd; --ink: #243229; --surface: #fff; }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: var(--surface); font-family: system-ui, sans-serif; line-height: 1.5; }
+a { color: var(--brand-green); }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { left: 1rem; top: 1rem; z-index: 2; padding: .5rem; background: var(--surface); }
+.site-header, .site-footer { padding: 1rem 5vw; border-bottom: 1px solid #dfe7df; }
+.site-footer { border-top: 1px solid #dfe7df; border-bottom: 0; background: var(--brand-beige); }
+.brand { color: var(--brand-green); font-size: 1.35rem; font-weight: 700; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .75rem; }
+.scaffold-note { color: #5f6c64; font-size: .875rem; }
+.placeholder-panel { max-width: 72rem; margin: 2rem auto; padding: clamp(2rem, 7vw, 6rem) 5vw; background: var(--brand-beige); border-radius: 1rem; }
+.eyebrow { color: var(--brand-green); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.choice-row { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
+.choice-row span { padding: .65rem .8rem; background: var(--surface); border: 1px dashed var(--brand-green); border-radius: .5rem; }
+@media (max-width: 640px) { .site-header, .site-footer { padding-inline: 1rem; } nav { gap: .6rem; } }

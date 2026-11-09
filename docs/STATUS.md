@@ -3,7 +3,7 @@
 ## Estado atual
 
 - Marco: M0.5 — equipe multiagente.
-- Situação: M1 em andamento; três frentes independentes em revisão.
+- Situação: M1 em andamento; M3/M4 preparados em modo demonstrativo e QA concluído em revisão.
 - Git: branch `main`, remoto `origin` preservados.
 - Implementação: não iniciada.
 - Serviços pagos, Shopify, checkout e campanhas: não ativados.
@@ -24,6 +24,9 @@
 - Pesquisa pública datada adicionada em `catalog/public-research-2026-11-09.md`; nenhuma fonte foi tratada como homologação.
 - M1-B criou direção visual e plano fotográfico em `design/`.
 - M1-C criou posicionamento, calendário de 14 dias, roteiros e rastreamento em `marketing/`.
+- M4-01-DRAFT criou regras e seis testes manuais do RantiShop Combina em `automation/`.
+- M3-01-SCAFFOLD criou estrutura reversível de tema em `shopify-theme/`; JSONs passaram por parsing local.
+- M6-QA-REVIEW criou relatório independente em `tests/`.
 
 ## Bloqueios
 
@@ -31,11 +34,12 @@
 - Catálogo de 10 produtos ainda não aprovado.
 - Cotações por SKU, estoque, frete, prazos e margens ainda pendentes.
 - Não existe superfície visual para gerar capturas reais desktop/mobile.
+- O scaffold Shopify ainda não foi validado pelo Shopify Theme Check nem executado em loja de desenvolvimento.
 - Nenhuma autorização para gasto, publicação ou pedido real.
 
 ## Próximo marco
 
-Próximos passos: executar M1-03 com solicitações de cotação sem compra e preparar a superfície visual mínima para M2-02.
+Próximos passos: executar M1-03 com solicitações de cotação sem compra; depois validar o scaffold e produzir a prévia visual demonstrável.
 
 ## Resultado da validação de delegação
 

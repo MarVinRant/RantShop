@@ -1,0 +1,11 @@
+{
+  "name": "Rodapé — placeholder",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer-placeholder",
+      "settings": {}
+    }
+  },
+  "order": ["footer"]
+}

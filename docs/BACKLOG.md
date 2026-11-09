@@ -12,6 +12,8 @@ Essas frentes não iniciam a construção integral da Shopify antes do contrato 
 
 Estado operacional: M1-A, M1-B e M1-C estão `IN_PROGRESS`, com áreas de escrita isoladas. O Orquestrador fará a revisão e integração dos resultados.
 
+Rodada seguinte: M4-01-DRAFT, M3-01-SCAFFOLD e M6-QA-REVIEW foram executadas em áreas isoladas e estão `IN_REVIEW`.
+
 | ID | Prioridade | Tarefa | Responsável | Dependência | Aceite |
 |---|---|---|---|---|---|
 | M0-01 | P0 | Manter registros e estrutura central | Orquestrador | — | Documentos e pastas presentes |
@@ -27,6 +29,10 @@ Estado operacional: M1-A, M1-B e M1-C estão `IN_PROGRESS`, com áreas de escrit
 | M5-01 | P1 | Preparar calendário e Telegram supervisionado | Marketing Orgânico | M1, M3 | Conteúdo rastreável e revisável |
 | M6-01 | P0 | Executar homologação e corrigir falhas | QA e Operações | M3–M5 | Zero falhas críticas |
 | M7-01 | P0 | Consolidar entrega e pedir autorização | Orquestrador | M6 | Decisão apta/não apta documentada |
+
+| M4-01-DRAFT | P1 | Documentar regras determinísticas do Combina | IA e Automações | Contrato do catálogo | Fallback seguro e nenhum produto sem validação |
+| M3-01-SCAFFOLD | P1 | Preparar esqueleto reversível de tema | Shopify | Direção visual e contrato | JSON válido, placeholders identificados e sem checkout |
+| M6-QA-REVIEW | P0 | Revisar catálogo, design e marketing | QA e Operações | Artefatos M1 | Relatório com evidências, severidades e bloqueios |
 
 ## Relatórios
 
