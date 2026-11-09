@@ -22,6 +22,7 @@
 - Commit M0.5 sincronizado com `origin/main`.
 - M1-A criou matriz, esquema e dez candidatos não homologados em `catalog/`.
 - `catalog/candidates.json` agora fornece os dez candidatos em formato estruturado; todos permanecem `candidate` com campos comerciais nulos.
+- `tests/validate-repository.ps1` foi criado e executado com sucesso, validando catálogo, complementares, JSON do tema e ausência de padrões de credenciais.
 - Pesquisa pública datada adicionada em `catalog/public-research-2026-11-09.md`; nenhuma fonte foi tratada como homologação.
 - M1-B criou direção visual e plano fotográfico em `design/`.
 - M1-C criou posicionamento, calendário de 14 dias, roteiros e rastreamento em `marketing/`.

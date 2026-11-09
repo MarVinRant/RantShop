@@ -21,6 +21,7 @@ No build or test tooling is configured yet. Document new scripts here and in the
 - `shopify theme dev` — run the theme locally against a development store.
 - `shopify theme check` — validate Shopify theme conventions.
 - `npm test` — run automated tests once a test runner is introduced.
+- `./tests/validate-repository.ps1` — validate the candidate catalog, theme JSON, references, and credential-like patterns locally.
 
 Do not activate paid services, real checkout, or commercial publication from local development.
 
