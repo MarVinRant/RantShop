@@ -12,6 +12,12 @@ Assert-Condition (($products | Where-Object { $_.status -ne 'candidate' }).Count
 Assert-Condition (($products | Where-Object { $_.commercial.supplier_cost_brl -ne $null -or $_.commercial.suggested_retail_brl -ne $null -or $_.margin.contribution_brl -ne $null }).Count -eq 0) 'commercial and margin values are not populated'
 
 $ids = @($products | ForEach-Object id)
+$quoteRegister = Get-Content -LiteralPath (Join-Path $PSScriptRoot '..\catalog\quote-register.json') -Raw | ConvertFrom-Json
+$quotes = @($quoteRegister.quotes)
+Assert-Condition ($quotes.Count -eq 10) 'quote register contains one entry per candidate'
+Assert-Condition (($quotes | Where-Object { $ids -notcontains $_.candidate_id }).Count -eq 0) 'quote register IDs belong to candidate catalog'
+Assert-Condition ($quoteRegister.status -eq 'not_sent') 'quote register has not been sent'
+Assert-Condition (($quotes | Where-Object { $_.status -ne 'pending_validation' }).Count -eq 0) 'quote entries remain pending validation'
 foreach ($product in $products) {
   Assert-Condition ($product.id -match '^c-\d{2}$') "$($product.id) uses stable candidate ID"
   foreach ($complement in @($product.complements)) {

@@ -1,0 +1,18 @@
+{
+  "register_version": "0.1-draft",
+  "status": "not_sent",
+  "instructions": "Fill only from dated supplier evidence. This register is not a purchase order.",
+  "test_destination": {"postal_code": null, "city_state": null},
+  "quotes": [
+    {"candidate_id":"c-01","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"},
+    {"candidate_id":"c-02","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"},
+    {"candidate_id":"c-03","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"},
+    {"candidate_id":"c-04","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"},
+    {"candidate_id":"c-05","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"},
+    {"candidate_id":"c-06","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"},
+    {"candidate_id":"c-07","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"},
+    {"candidate_id":"c-08","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"},
+    {"candidate_id":"c-09","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"},
+    {"candidate_id":"c-10","supplier":"","contact_channel":"","request_date":null,"supplier_sku":null,"cost_brl":null,"stock":null,"dispatch_days":null,"freight_brl":null,"delivery_estimate":null,"return_policy":null,"payment_terms":null,"evidence_url":null,"evidence_file":null,"status":"pending_validation"}
+  ]
+}
