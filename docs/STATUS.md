@@ -3,7 +3,7 @@
 ## Estado atual
 
 - Marco: M0 — estrutura central.
-- Situação: em preparação documental.
+- Situação: concluído; aguardando início de M1.
 - Git: branch `main`, remoto `origin` preservados.
 - Implementação: não iniciada.
 - Serviços pagos, Shopify, checkout e campanhas: não ativados.
@@ -15,6 +15,7 @@
 - Estado do repositório verificado.
 - Papéis, dependências, critérios e registros definidos.
 - Diretórios-base preparados sem aplicações fictícias.
+- Commit local de M0 criado para revisão.
 
 ## Bloqueios
 
