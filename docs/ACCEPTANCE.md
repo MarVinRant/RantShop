@@ -46,6 +46,7 @@
 - [ ] Homologar fornecedor e dados de SKU antes de ativar recomendações.
 - [x] Estrutura de políticas institucionais criada como rascunho não publicável.
 - [ ] Revisar políticas com dados reais da operação antes do Gate 3.
+- [x] Checklist de prontidão por Gates criado com evidências e bloqueios atuais.
 
 ## MVP — Critérios futuros
 
