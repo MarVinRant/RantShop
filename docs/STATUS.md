@@ -3,7 +3,7 @@
 ## Estado atual
 
 - Marco: M0.5 — equipe multiagente.
-- Situação: concluído; aguardando início de M1.
+- Situação: M1 em andamento; três frentes independentes em revisão.
 - Git: branch `main`, remoto `origin` preservados.
 - Implementação: não iniciada.
 - Serviços pagos, Shopify, checkout e campanhas: não ativados.
@@ -19,16 +19,22 @@
 - Os commits M0 foram sincronizados com `origin/main`.
 - Delegação oficial validada com três subagentes temporários em paralelo.
 - Não foram criados TOML incompatíveis: o CLI `codex` não está disponível localmente.
+- Commit M0.5 sincronizado com `origin/main`.
+- M1-A criou matriz, esquema e dez candidatos não homologados em `catalog/`.
+- M1-B criou direção visual e plano fotográfico em `design/`.
+- M1-C criou posicionamento, calendário de 14 dias, roteiros e rastreamento em `marketing/`.
 
 ## Bloqueios
 
 - Fornecedor nacional ainda não homologado.
 - Catálogo de 10 produtos ainda não aprovado.
+- Cotações por SKU, estoque, frete, prazos e margens ainda pendentes.
+- Não existe superfície visual para gerar capturas reais desktop/mobile.
 - Nenhuma autorização para gasto, publicação ou pedido real.
 
 ## Próximo marco
 
-M1: pesquisa e homologação de fornecedores, com evidências comerciais e cálculo de margem.
+Próximos passos: revisar e integrar as três entregas; depois executar M1-03 com cotações sem compra e preparar a superfície visual mínima para M2-02.
 
 ## Resultado da validação de delegação
 

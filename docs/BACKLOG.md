@@ -2,13 +2,15 @@
 
 ## Primeira rodada M1 — tarefas independentes
 
-| ID | Frente | Responsável | Entrega | Critérios de aceite |
-|---|---|---|---|---|
-| M1-A | Produtos e Fornecedores | Agente 01 | Matriz de homologação para fornecedores e 10 produtos | Evidências verificáveis de fornecedor, custo, frete, estoque, prazo, margem e complementares; dados ausentes ficam pendentes |
-| M1-B | Design e UX | Agente 03 | Referências e plano da primeira prévia fotográfica | Identidade verde/branco/bege, direitos das imagens registrados e plano desktop/mobile antes da aprovação visual |
-| M1-C | Marketing Orgânico | Agente 05 | Posicionamento, calendário inicial e formatos de conteúdo | Conteúdo orgânico sem anúncios pagos, links rastreáveis planejados e nenhuma oferta definitiva sem catálogo homologado |
+| ID | Frente | Responsável | Estado | Entrega | Critérios de aceite |
+|---|---|---|---|---|---|
+| M1-A | Produtos e Fornecedores | Agente 01 | IN_REVIEW | Matriz de homologação para fornecedores e 10 produtos | Evidências verificáveis de fornecedor, custo, frete, estoque, prazo, margem e complementares; dados ausentes ficam pendentes |
+| M1-B | Design e UX | Agente 03 | IN_REVIEW | Referências e plano da primeira prévia fotográfica | Identidade verde/branco/bege, direitos das imagens registrados e plano desktop/mobile antes da aprovação visual |
+| M1-C | Marketing Orgânico | Agente 05 | IN_REVIEW | Posicionamento, calendário inicial e formatos de conteúdo | Conteúdo orgânico sem anúncios pagos, links rastreáveis planejados e nenhuma oferta definitiva sem catálogo homologado |
 
 Essas frentes não iniciam a construção integral da Shopify antes do contrato de dados do catálogo e das dependências M1.
+
+Estado operacional: M1-A, M1-B e M1-C estão `IN_PROGRESS`, com áreas de escrita isoladas. O Orquestrador fará a revisão e integração dos resultados.
 
 | ID | Prioridade | Tarefa | Responsável | Dependência | Aceite |
 |---|---|---|---|---|---|
@@ -16,6 +18,9 @@ Essas frentes não iniciam a construção integral da Shopify antes do contrato 
 | M0-02 | P0 | Definir contratos de dados e revisão | Orquestrador + QA | M0-01 | Critérios rastreáveis |
 | M1-01 | P0 | Pesquisar fornecedores nacionais | Produtos | M0 | Evidências comparáveis |
 | M1-02 | P0 | Selecionar e precificar 10 produtos | Produtos + QA | M1-01 | Margem, estoque e prazo validados |
+| M1-03 | P0 | Revisar candidatos e solicitar cotações sem compra | Produtos + QA | M1-01 | Dez fichas com evidência datada ou pendência explícita |
+| M2-02 | P1 | Produzir prévia fotográfica demonstrável | Design e UX + Shopify | M2-01, superfície visual | Capturas reais desktop/mobile sem produto fictício |
+| M5-02 | P1 | Revisar calendário e links rastreáveis | Marketing + Orquestrador | M1, M1-C | Rascunhos prontos, sem publicação real |
 | M2-01 | P1 | Montar prévia fotográfica consolidada | Design e UX + Shopify | M0 | Capturas desktop/mobile |
 | M3-01 | P0 | Construir tema e navegação | Shopify | M1, M2 | Loja demonstrável e responsiva |
 | M4-01 | P1 | Implementar Combina e recomendações | IA e Automações | M1, M3 | Regras usam catálogo único |

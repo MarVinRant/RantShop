@@ -13,5 +13,7 @@
 | D-009 | Orquestrador como sessão principal; seis frentes especializadas | Mantém coordenação e reduz configuração incompatível | Aprovada |
 | D-010 | Limite inicial de três subagentes simultâneos | Controla concorrência e consumo | Aprovada |
 | D-011 | Usar delegação oficial disponível quando o CLI/TOML não estiver exposto | Evita inventar configuração não suportada | Aplicada em M0.5 |
+| D-012 | Tratar os dez itens atuais como candidatos, não catálogo homologado | Não há evidência datada por SKU de preço, estoque, prazo, frete e margem | Aplicada em M1 |
+| D-013 | Manter prévias visuais demonstrativas sem capturas até existir superfície implementada | Evita apresentar layout ou produto fictício como operacional | Aplicada em M1 |
 
 Alterações de escopo, orçamento, plataforma ou publicação exigem registro nesta página e aprovação humana quando aplicável.

@@ -17,6 +17,17 @@
 - [x] Ausência do CLI `codex` registrada; nenhum TOML incompatível criado.
 - [x] Commits M0 sincronizados com `origin/main`.
 
+## M1 — Primeiras frentes
+
+- [x] Matriz de homologação e contrato mínimo do catálogo criados.
+- [x] Dez candidatos registrados como `candidate`/pendentes, sem dados comerciais inventados.
+- [x] Direção visual desktop/mobile e regra de prévia fotográfica documentadas.
+- [x] Posicionamento, calendário de 14 dias, seis roteiros e rastreamento orgânico preparados.
+- [ ] Homologar fornecedor e SKU com evidências datadas.
+- [ ] Calcular margens, frete e capital de giro para os dez produtos.
+- [ ] Produzir capturas reais da prévia visual.
+- [ ] Revisar e aprovar materiais antes de qualquer publicação.
+
 ## MVP — Critérios futuros
 
 - [ ] Fornecedor nacional evidenciado e operacional.
